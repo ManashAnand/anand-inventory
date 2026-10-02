@@ -18,6 +18,7 @@
   "build": {
     "appId": "com.anand.inventory",
     "productName": "Inventory",
+    "artifactName": "${productName}-${version}-${os}-${arch}.${ext}",
     "asar": true,
     "directories": {
       "output": "release"
